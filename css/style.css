@@ -1,0 +1,149 @@
+/* osnovnoy podsvrtka /bg-a-o-nas2 #2196F3 */
+/*  osnovnoy bez podsvrtka  #757575 */
+/* osn #212121 */
+/* #FFFFFF */
+/* bg-a-o-nas1 #F5F4FA */
+/* фоон #FFFFFF */
+/* другий фон #F5F4FA */
+:root {
+  --bg-white-text: rgba(148, 148, 148, 0.103);
+  --primary-text-color: #212121;
+  --acent-text-color: #2196f3;
+  --primery-text-white: #ffffff;
+  --connection: #757575;
+  --bg-none-light: #f5f4fa;
+}
+
+/* general */
+body {
+  background-color: #fff;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+  font-family: Roboto, sans-serif;
+}
+
+.general-a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.general-ul {
+  list-style: none;
+}
+
+.btn-text {
+  color: var(--primery-text-white);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+.footerbtn-text {
+  color: var(--primery-text-white);
+
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+.btn-box {
+  background-color: var(--acent-text-color);
+}
+
+/* header */
+/* nav */
+
+.general-nav {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.number-nav {
+  color: var(--connection);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.general-nav:hover,
+.general-nav:focus,
+.number-nav:hover,
+.number-nav:focus {
+  color: var(--acent-text-color);
+}
+
+.current {
+  color: var(--acent-text-color);
+}
+
+/* main */
+/* general */
+.title-general {
+  color: var(--primery-text-white);
+  /* фон поставив щоб було видно текст */
+  background-color: var(--bg-white-text);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.title-h {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.title-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+}
+.paragraph-text {
+  color: var(--connection);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* O nas */
+
+.bg-img {
+  background-color: var(--bg-none-light);
+}
+.bg-img:hover {
+  background-color: var(--acent-text-color);
+}
+
+/* What are we doing */
+
+.text-work {
+  color: var(--primery-text-white);
+  /* фон поставив щоб було видно текст */
+  background-color: var(--bg-white-text);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* logo */
+.logo {
+  color: var(--primary-text-color);
+  font-family: Raleway;
+}
+.color-logo {
+  color: var(--acent-text-color);
+}

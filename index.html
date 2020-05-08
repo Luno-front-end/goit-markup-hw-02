@@ -4,27 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Мой ДЗ</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
+  <body class="body">
     <header>
       <nav>
-        <a href="/">
-          Web Studio
+        <a href="/" class="general-a logo">
+          <span class="color-logo">Web</span> Studio
         </a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="general-ul">
+          <li><a href="/" class="general-nav general-a current">Студия</a></li>
+          <li>
+            <a href="./portfolio.html" class="general-nav general-a"
+              >Портфолио</a
+            >
+          </li>
+          <li><a href="" class="general-nav general-a">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="general-ul">
         <li>
           <img src="./images/phone.svg" alt="телефон" />
-          <a href="tel:0507786155">0507786155 </a>
+          <a href="tel:0507786155" class="number-nav general-a">0507786155 </a>
         </li>
         <li>
           <img src="./images/mail.svg" alt="Почта" />
-          <a href="mailto:onlyrobochaposhta@gmail.com">
+          <a
+            href="mailto:onlyrobochaposhta@gmail.com"
+            class="number-nav general-a"
+          >
             onlyrobochaposhta@gmail.com
           </a>
         </li>
@@ -32,51 +44,51 @@
     </header>
     <main>
       <section>
-        <h1>эффективные решения для вашего бизнеса</h1>
-        <a href="">Заказать услугу</a>
+        <h1 class="title-general">эффективные решения для вашего бизнеса</h1>
+        <a href="" class="general-a btn-text btn-box">Заказать услугу</a>
       </section>
       <section>
         <h2>О нас</h2>
-        <ul>
+        <ul class="general-ul">
           <!-- 1 -->
-          <li>
-            <a href="">
+          <li class="bg-img">
+            <a href="" class="general-a">
               <img src="./images/Satellite.svg" alt="спутниковая тарелка" />
-              <h3>Внимание к деталям</h3>
-              <p>
+              <h3 class="title-text">Внимание к деталям</h3>
+              <p class="paragraph-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </a>
           </li>
           <!-- 2 -->
-          <li>
-            <a href="">
+          <li class="bg-img">
+            <a href="" class="general-a">
               <img src="./images/clock.svg" alt="часы" />
-              <h3>Пунктуальность</h3>
-              <p>
+              <h3 class="title-text">Пунктуальность</h3>
+              <p class="paragraph-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </a>
           </li>
           <!-- 3 -->
-          <li>
-            <a href="">
+          <li class="bg-img">
+            <a href="" class="general-a">
               <img src="./images/pc.svg" alt="график вверх" />
-              <h3>Планирование</h3>
-              <p>
+              <h3 class="title-text">Планирование</h3>
+              <p class="paragraph-text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </a>
           </li>
           <!-- 4 -->
-          <li>
-            <a href="">
+          <li class="bg-img">
+            <a href="" class="general-a">
               <img src="./images/Astronaut.svg" alt="астронавт" />
-              <h3>Современные технологии</h3>
-              <p>
+              <h3 class="title-text">Современные технологии</h3>
+              <p class="paragraph-text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -85,46 +97,46 @@
         </ul>
       </section>
       <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+        <h2 class="title-h">Чем мы занимаемся</h2>
+        <ul class="general-ul">
           <li>
-            <a href=""
+            <a href="" class="general-a"
               ><img
                 src="./images/img1.jpg"
                 alt="человек работает на ноутбуке"
                 width="380"
                 height="294"
               />
-              <p>Десктопные приложения</p>
+              <p class="text-work">Десктопные приложения</p>
             </a>
           </li>
           <li>
-            <a href=""
+            <a href="" class="general-a"
               ><img
                 src="./images/img2.jpg"
                 alt="смартфон на котором приложение"
                 width="380"
                 height="294"
               />
-              <p>Мобильные приложения</p>
+              <p class="text-work">Мобильные приложения</p>
             </a>
           </li>
           <li>
-            <a href=""
+            <a href="" class="general-a"
               ><img
                 src="./images/img3.jpg"
                 alt="персональный компьютер на котором сделан дизайн"
                 width="380"
                 height="294"
               />
-              <p>Дизайнерские решения</p>
+              <p class="text-work">Дизайнерские решения</p>
             </a>
           </li>
         </ul>
       </section>
       <section>
         <h2>Наша команда</h2>
-        <ul>
+        <ul class="list-style">
           <!-- Джош Сміт -->
           <li>
             <img
@@ -135,7 +147,7 @@
             />
             <h3>John Smith</h3>
             <p>Product Designer</p>
-            <ul>
+            <ul class="list-style">
               <li>
                 <a href=""
                   ><img src="./images/instagram.svg" alt="instagram"
@@ -166,7 +178,7 @@
             />
             <h3>Marta Stewart</h3>
             <p>Frontend Developer</p>
-            <ul>
+            <ul class="list-style">
               <li>
                 <a href=""
                   ><img src="./images/instagram.svg" alt="instagram"
@@ -197,7 +209,7 @@
             />
             <h3>Robert Jakis</h3>
             <p>Marketing</p>
-            <ul>
+            <ul class="list-style">
               <li>
                 <a href=""
                   ><img src="./images/instagram.svg" alt="instagram"
@@ -228,7 +240,7 @@
             />
             <h3>Martin Doe</h3>
             <p>UI Designer</p>
-            <ul>
+            <ul class="list-style">
               <li>
                 <a href=""
                   ><img src="./images/instagram.svg" alt="instagram"
@@ -253,7 +265,7 @@
       </section>
       <section>
         <h2>Постоянные клиенты</h2>
-        <ul>
+        <ul class="list-style">
           <li>
             <a href=""
               ><img src="./images/logo-1.svg" alt="компания YA&CO"
@@ -286,34 +298,44 @@
       </section>
     </main>
     <footer>
-      <a href="">Web Studio</a>
+      <a href="" class="general-a logo">
+        <span class="color-logo">Web</span> Studio</a
+      >
       <p>г. Киев, ул.Анны Ахматовой, 25</p>
-      <ul>
-        <li><a href="tel:0507786155">0507786155</a></li>
+      <ul class="general-ul">
+        <li><a href="tel:0507786155" class="general-a">0507786155</a></li>
         <li>
-          <a href="mailto:onlyrobochaposhta@gmail.com">
+          <a href="mailto:onlyrobochaposhta@gmail.com" class="general-a">
             onlyrobochaposhta@gmail.com
           </a>
         </li>
       </ul>
       <p>присоединяйтесь</p>
-      <ul>
+      <ul class="general-ul">
         <li>
-          <a href=""><img src="./images/instagram-2.svg" alt="instagram" /></a>
+          <a href="" class="general-a"
+            ><img src="./images/instagram-2.svg" alt="instagram"
+          /></a>
         </li>
         <li>
-          <a href=""><img src="./images/twitter-2.svg" alt="twitter" /></a>
+          <a href="" class="general-a"
+            ><img src="./images/twitter-2.svg" alt="twitter"
+          /></a>
         </li>
         <li>
-          <a href=""><img src="./images/facebook-2.svg" alt="facebook" /></a>
+          <a href="" class="general-a"
+            ><img src="./images/facebook-2.svg" alt="facebook"
+          /></a>
         </li>
         <li>
-          <a href=""><img src="./images/linkedin-2.svg" alt="linkedin" /></a>
+          <a href="" class="general-a"
+            ><img src="./images/linkedin-2.svg" alt="linkedin"
+          /></a>
         </li>
       </ul>
       <p>Подпишитесь на рассылку</p>
       <input type="text" name="Email" />
-      <a href="">Подписаться</a>
+      <a href="" class="general-a footerbtn-text btn-box">Подписаться</a>
       <p>2020 | Developed by GoIT Students</p>
     </footer>
   </body>
