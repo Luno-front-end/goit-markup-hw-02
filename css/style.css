@@ -5,6 +5,7 @@
 /* bg-a-o-nas1 #F5F4FA */
 /* фоон #FFFFFF */
 /* другий фон #F5F4FA */
+/* задний фон футра  #2F303A */
 :root {
   --bg-white-text: rgba(148, 148, 148, 0.103);
   --primary-text-color: #212121;
@@ -12,6 +13,10 @@
   --primery-text-white: #ffffff;
   --connection: #757575;
   --bg-none-light: #f5f4fa;
+  --footer-number: rgba(255, 255, 255, 0.6);
+  --footer-year: rgba(255, 255, 255, 0.4);
+  --bg-footer: #2f303a;
+  --incogniti-gb-card-portdolio: rgba(33, 150, 243, 0.9);
 }
 
 /* general */
@@ -139,6 +144,23 @@ body {
   text-transform: uppercase;
 }
 
+/* our team */
+.name-people {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.work-people {
+  color: var(--connection);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
 /* logo */
 .logo {
   color: var(--primary-text-color);
@@ -146,4 +168,90 @@ body {
 }
 .color-logo {
   color: var(--acent-text-color);
+}
+
+/* footer */
+
+.footer-heading {
+  color: var(--primery-text-white);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.number-footer {
+  color: var(--footer-number);
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.street {
+  color: var(--primery-text-white);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer-year {
+  color: var(--footer-year);
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+}
+/* Зробив background підвала для того щоб бачити текст */
+.bg-footer {
+  background-color: var(--bg-footer);
+}
+
+/* portfolio */
+
+/* main */
+/* кнопки */
+.button-text {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.button-box {
+  background-color: var(--bg-none-light);
+}
+
+.button:hover {
+  background-color: var(--acent-text-color);
+}
+/* список работ */
+
+.portfolio-h {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-pone {
+  color: var(--connection);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+.portfolio-text {
+  color: var(--primery-text-white);
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+}
+/* фон поставив щоб було видно текст */
+.card-bg {
+  background-color: var(--incogniti-gb-card-portdolio);
 }
