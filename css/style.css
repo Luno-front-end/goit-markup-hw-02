@@ -16,7 +16,7 @@
   --footer-number: rgba(255, 255, 255, 0.6);
   --footer-year: rgba(255, 255, 255, 0.4);
   --bg-footer: #2f303a;
-  --incogniti-gb-card-portdolio: rgba(33, 150, 243, 0.9);
+  --incogniti-gb-card-portfolio: rgba(33, 150, 243, 0.9);
 }
 
 /* general */
@@ -165,12 +165,19 @@ body {
 .logo {
   color: var(--primary-text-color);
   font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .color-logo {
   color: var(--acent-text-color);
 }
 
 /* footer */
+
+.general-address {
+  font-style: normal;
+}
 
 .footer-heading {
   color: var(--primery-text-white);
@@ -253,5 +260,5 @@ body {
 }
 /* фон поставив щоб було видно текст */
 .card-bg {
-  background-color: var(--incogniti-gb-card-portdolio);
+  background-color: var(--incogniti-gb-card-portfolio);
 }
